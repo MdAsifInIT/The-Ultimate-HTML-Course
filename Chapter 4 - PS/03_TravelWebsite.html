@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website - Instant Travels</title>
+    <link rel="stylesheet" href="03_Style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Welcome to Instant Travels</h1>
+        <h2>Book an Instant Travel Package</h2>
+    </div>
+
+    <form action="action.php">
+
+
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name Here" required>
+        </div>
+
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter Your Phone Number" required>
+        </div>
+
+        <div>
+            <label for="email">Contact Email</label>
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+        </div>
+
+        <div>
+            <label for="add">Address</label>
+            <textarea name="add" id="add" placeholder="Enter your address here." rows="3"></textarea>
+        </div>
+
+        <div>
+            <label for="package">Package</label>
+            <select name="package" id="package" required>
+                <option value="" disabled selected>Select a Package</option>
+                <option value="goa">Goa</option>
+                <option value="manali">Manali</option>
+                <option value="kashmir">Kashmir</option>
+                <option value="banaras">Banaras</option>
+                <option value="nepal">Nepal</option>
+                <option value="laddakh">Laddakh</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Travel Class</p>
+
+            <input type="radio" id="class" name="class" value="basic">
+            <label for="basic">Basic</label>
+
+            <input type="radio" id="class" name="class" value="gold">
+            <label for="gold">Gold</label>
+
+            <input type="radio" id="class" name="class" value="luxury">
+            <label for="luxury">Luxury</label>
+        </div>
+
+        <p>Note: Price increases as you increase the class!</p>
+
+        <div>
+            <input type="checkbox" id="checkbox" required>
+            <label for="checkbox">I agree with the terms and conditions.</label>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+        <div>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
