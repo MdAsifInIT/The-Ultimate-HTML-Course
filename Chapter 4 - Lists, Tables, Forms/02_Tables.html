@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables - HTML </title>
+    <style>
+        /* Global styles */
+        body {
+            background-color: #1a1b26;
+            color: #c0caf5;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #7aa2f7;
+            margin-bottom: 20px;
+        }
+
+        /* Table styling */
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        thead {
+            background-color: #414868;
+        }
+
+        th,
+        td {
+            padding: 12px 20px;
+            text-align: left;
+            border-bottom: 1px solid #3b4261;
+        }
+
+        th {
+            color: #c0caf5;
+            font-size: 1.1em;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #24283b;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #1f2335;
+        }
+
+        td {
+            color: #a9b1d6;
+        }
+
+        tr:hover {
+            background-color: #414868;
+            color: #c0caf5;
+        }
+
+        /* Table borders */
+        th,
+        td {
+            border: 1px solid #3b4261;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tables in HTML!</h1>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Occupation</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carl</td>
+                <td>Spy</td>
+                <td>$16000</td>
+            </tr>
+            <tr>
+                <td>Marry</td>
+                <td>Assassin</td>
+                <td>$20000</td>
+            </tr>
+            <tr>
+                <td>Brock</td>
+                <td>Soldier</td>
+                <td>$12000</td>
+            </tr>
+            <tr>
+                <th colspan="2"> Thank </th>
+                <th colspan="1"> You </th>
+            </tr>
+            <tr>
+                <th colspan="3"> End of List! </th>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
