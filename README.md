@@ -1,5 +1,4 @@
 # The Ultimate HTML Course 
-# REPO IS UNDER CONSTRUCTION!!
 
 **Welcome to [**The Ultimate HTML Course!**](https://youtu.be/k2DSi1zGEc8)**  
 
@@ -75,6 +74,8 @@ You can follow along with this project and learn the entire process with me:
 - **[Download the Handwritten Notes](https://www.codewithharry.com/notes)**
 
 - **[Download the Cheatsheet](https://www.codewithharry.com/blogpost/html-cheatsheet/)**
+
+- **[HTML Symbols](https://www.htmlsymbols.xyz/)**
 
 ---
 

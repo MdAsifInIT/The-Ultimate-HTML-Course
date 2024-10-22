@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zomato</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Zomato Logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Add restaurant</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <!-- Background image is set through CSS for better control -->
+            <div>
+                <h1>Discover the best food & drinks in Bengaluru</h1>
+                <p>Enjoy hand-picked restaurants, fast delivery, and mouth-watering delicacies!</p>
+            </div>
+
+            <div class="search-section">
+                <label for="search">What would you like to eat today?</label>
+                <input id="search" type="text" placeholder="Search for restaurant, cuisine or a dish">
+                <button type="button">Search</button>
+            </div>
+        </section>
+
+        <!-- Featured Restaurants Section -->
+        <section class="featured-restaurants">
+            <h2>Featured Restaurants</h2>
+            <div class="restaurant-list">
+                <div class="restaurant">
+                    <!-- <img src="img/restaurant1.jpg" alt="Restaurant 1"> -->
+                    <h3>Spicy Delight</h3>
+                    <p>Specializing in Indian cuisine</p>
+                </div>
+                <div class="restaurant">
+                    <!-- <img src="img/restaurant2.jpg" alt="Restaurant 2"> -->
+                    <h3>Quick Bites</h3>
+                    <p>Fast food with a twist</p>
+                </div>
+                <div class="restaurant">
+                    <!-- <img src="img/restaurant3.jpg" alt="Restaurant 3"> -->
+                    <h3>Sushi World</h3>
+                    <p>Delicious sushi and Japanese dishes</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; | All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
